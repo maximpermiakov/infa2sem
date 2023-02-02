@@ -14,7 +14,7 @@ int main() {
         cout << (-b / (2 * a)) << endl;
     }
     else {
-        cout << ((-b - sqrt(d)) / (2 * a)) << ' ' << ((-b + sqrt(d)) / (2 * a));
+        cout << ((-b - sqrt(d)) / (2 * a)) << ' ' << ((-b + sqrt(d)) / (2 * a)) << endl;
     }
     return 0;
 }

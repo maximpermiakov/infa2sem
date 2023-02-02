@@ -11,4 +11,5 @@ int main() {
         n = q;
     }
     cout << n << endl;
+    return 0;
 }
