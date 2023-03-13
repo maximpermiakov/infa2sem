@@ -5,7 +5,6 @@
 #include <cmath>
 
 unsigned arr[2000];
-
 unsigned bin[20];
 unsigned hib[20];
 unsigned fib[20];
@@ -22,11 +21,9 @@ void shell_sort(unsigned arr[], unsigned gaps[], int size, int gapssize, int &co
             int tmp = arr[j];
             int k;
             for (k = j; k >= gaps[i] && arr[k - gaps[i]] > tmp; k -= gaps[i]) {
-                arr[k] = arr[k - gaps[i]];
+                swap(arr[k], arr[k - gaps[i]]);
                 counter++;
             }
-            arr[k] = tmp;
-            counter++;
         }
     }
 }
