@@ -2,3 +2,5 @@
 *.exe
 .idea/
 lab1/*.txt
+.venv
+.clang-format
