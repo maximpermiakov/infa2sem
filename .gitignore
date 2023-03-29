@@ -4,3 +4,4 @@
 lab1/*.txt
 .venv
 .clang-format
+contest/
